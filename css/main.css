@@ -1,0 +1,114 @@
+@import "./reset.css";
+
+body{
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 14px;
+    position: relative;
+    min-width: 100vh;
+}
+.wrapper{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+}
+.contain {
+    width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contain__menu /* top-1-w*/{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__boddy /* top-1*/{
+    display: flex;
+    background-color: #219653;
+    height: 20px;
+    align-items: center;
+}
+
+ul.menu__list /* top-mnu-1*/{
+    display: flex;
+    align-items: center;    
+}
+
+.menu__item {
+    margin-right: 10px;
+    font-size: 12px;
+}
+.menu__item a{
+    color: #ffffff;
+}
+
+.user__link{
+    height: 18px;
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    background: url("../img/user-link.png") no-repeat left center;
+    padding-left: 33px;
+}
+
+.contain__logo /*top-2*/{
+    padding: 5px 0 13px 0;    
+    display: flex; 
+    height: 90px;
+}
+
+.contain__menu-logo /* wop-2-w*/{
+    display: flex;
+    justify-content: space-between;
+}
+.menu__logo{
+    display: flex;    
+    align-items: center;
+}
+a.logo{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: url("../img/logo1.png") no-repeat left center;
+    padding-left: 85px;
+}
+.menu__phone{
+    align-items: center;
+    margin-left: 22px;
+}
+.menu__phone a{
+    margin-bottom: 8px;
+    padding-left: 35px;
+    display: block;
+    color: #333333;
+    font-size: 18px;
+    height: 25px;
+    background: url("../img/phone.png") no-repeat left center;
+}
+
+.contain__menu-cart {
+    display: flex;
+    align-items: center;
+}
+.contain__cart-text {
+    display: flex;
+
+}
+.contain__cart-text a{    
+    display: block;
+    line-height: 30px;
+    padding-left: 68px;
+    color: #333333;
+    font-size: 18px;
+    height: 60px;
+    background: url("../img/cart.png") no-repeat left center;
+}
+.contain__cart-text a br{
+}
